@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191919;
+    font-family: "DM Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+svg {
+    fill: currentColor;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 43px 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    width: 160px;
+    height: 33px;
+}
+
+.nav__link {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.nav__link-last {
+    padding-right: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 130px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main__img {
+    width: 650px;
+    height: 873px;
+    border-radius: 12px;
+}
+
+.main__heading {
+    width: 526px;
+    height: 250px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    color: #fff;
+    letter-spacing: 3.2px;
+}
+
+.main__text-decorated {
+    font-size: 75px;
+}
+
+.main__heading strong {
+    font-size: 80px;
+}
+
+.text__underline {
+    width: 163px;
+    height: 11px;
+}
+
+.icon__text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 74px;
+    margin-bottom: 16px;
+}
+
+.icon__button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.main__icons {
+    display: flex;
+    width: 245px;
+    justify-content: space-between;
+}
+
+.main__icon {
+    width: 32px;
+    height: 32px;
+}
+
+.episodes {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 70px;
+    padding-right: 130px;
+}
+
+.episodes__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.episodes__title {
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #fff;
+}
+
+.episodes__button {
+    background-color: #118DA8;
+    border-radius: 8px;
+    width: 178px;
+    height: 51px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    cursor: pointer;
+}
+

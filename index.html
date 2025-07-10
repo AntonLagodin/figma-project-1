@@ -2,10 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Castaway</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <a href="#">
+                <svg class="header__logo">\
+                    <use href="/assets/logo.svg"></use>
+                </svg>
+            </a>
+        </div>
+        <nav>
+            <a class="nav__link" href="#">Home</a>
+            <a class="nav__link" href="#">Episodes</a>
+            <a class="nav__link" href="#">About</a>
+            <a class="nav__link nav__link-last" href="#">Contacts</a>
+        </nav>
+    </header>
+    <section class="main">
+        <svg class="main__img">
+            <use href="/assets/IMAGE (5).svg"></use>
+        </svg>
+        <div class="main__header">
+            <h1 class="main__heading">Take your podcast to the <span class="main__text-decorated"> next <strong> level </strong></span></h1>
+            <svg class="text__underline">
+                <use href="/assets/Vector.svg"></use>
+            </svg>
+            <p class="icon__text">Listen on</p>
+            <div class="main__icons">
+                <button class="icon__button" type="button">
+                    <svg class="main__icon">
+                        <use href="/assets/IMAGE (6).svg"></use>
+                    </svg>
+                </button>
+                <button class="icon__button" type="button">
+                    <svg class="main__icon">
+                        <use href="/assets/IMAGE (7).svg"></use>
+                    </svg>
+                </button>
+                <button class="icon__button" type="button">
+                    <svg class="main__icon">
+                        <use href="/assets/IMAGE (8).svg"></use>
+                    </svg>
+                </button>
+                <button class="icon__button" type="button">
+                    <svg class="main__icon">
+                        <use href="/assets/IMAGE (9).svg"></use>
+                    </svg>
+                </button>
+                <button class="icon__button" type="button">
+                    <svg class="main__icon">
+                        <use href="/assets/IMAGE (10).svg"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="episodes">
+        <div class="episodes__container">
+            <h2 class="episodes__title">Latest episodes</h2>
+            <button class="episodes__button" type="button">View all episodes</button>
+        </div>
+        
+    </section>
 </body>
 </html>
