@@ -40,10 +40,15 @@ header {
     line-height: 27px;
     padding-right: 40px;
     position: relative;
+    transition: color .2s linear;
 }
 
 .nav__link-last {
     padding-right: 20px;
+}
+
+.nav__link:hover {
+    color: #118DA8;
 }
 
 .main {
@@ -57,7 +62,7 @@ header {
 }
 
 .main__img {
-    width: 650px;
+    min-width: 650px;
     height: 873px;
     border-radius: 12px;
 }
@@ -108,6 +113,11 @@ header {
 .main__icon {
     width: 32px;
     height: 32px;
+    transition: transform .2s linear;
+}
+
+.main__icon:hover {
+    transform: scale(1.5)
 }
 
 .episodes {
@@ -122,6 +132,7 @@ header {
     justify-content: space-between;
     margin-top: 100px;
     align-items: center;
+    margin-bottom: 66px;
 }
 
 .episodes__title {
@@ -135,10 +146,12 @@ header {
 .episodes__button {
     background-color: #118DA8;
     border-radius: 8px;
-    width: 178px;
+    max-width: 208px;
     height: 51px;
+    padding: 12px 15px 12px 20px;
     border: none;
     color: #fff;
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
@@ -157,12 +170,11 @@ header {
     background-color: #000;
     border-radius: 32px;
     padding: 40px;
-    margin-top: 66px;
+    margin-bottom: 60px;
 }
 
 .episode__image {
     min-width: 389px;
-    height: 465px;
 }
 
 .episode__info {
@@ -171,7 +183,7 @@ header {
 }
 
 .episode__type {
-    width: 73px;
+    width: max-content;
     height: 27px;
     background-color: #191919;
     border-radius: 6px;
@@ -180,6 +192,7 @@ header {
     line-height: 27px;
     text-align: center;
     margin-bottom: 48px;
+    padding: 0 16px;
 }
 
 .episode__number {
@@ -206,4 +219,5 @@ header {
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
+    margin-bottom: 18px;
 }
