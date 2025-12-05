@@ -8,6 +8,8 @@ body {
     background-color: #191919;
     font-family: "DM Sans", sans-serif;
     height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 a {
@@ -24,8 +26,6 @@ header {
     flex-wrap: wrap;
     align-items: center;
     padding: 43px 50px;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .header__logo {
@@ -57,8 +57,7 @@ header {
     align-items: center;
     padding-left: 70px;
     padding-right: 130px;
-    max-width: 1440px;
-    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .main__img {
@@ -121,16 +120,14 @@ header {
 }
 
 .episodes {
-    max-width: 1440px;
-    margin: 0 auto;
     padding-left: 70px;
     padding-right: 70px;
+    margin-bottom: 260px;
 }
 
 .episodes__container {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
     align-items: center;
     margin-bottom: 66px;
 }
@@ -220,4 +217,58 @@ header {
     font-weight: 400;
     line-height: 33px;
     margin-bottom: 18px;
+}
+
+.host {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 200px;
+}
+
+.info__arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;   
+}
+
+.arrow__image {
+    transition: transform .4s linear ;
+}
+
+.arrow__image:hover {
+    transform: scale(1.2);
+}
+
+.arrow__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+
+.host__name {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.host__desc {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #fff;
+    opacity: 70%;
+}
+
+.host__image {
+    min-width: 650px;
+    height: 743px;
+    border-radius: 12px;
 }
