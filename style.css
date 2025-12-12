@@ -272,3 +272,73 @@ header {
     height: 743px;
     border-radius: 12px;
 }
+
+.subscribe {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.subscribe__box {
+    position: absolute;
+    display: flex;
+    gap: 277px;
+    max-width: 1300px;
+    background-color: #000;
+    border-radius: 32px;
+    color: #fff;
+    padding: 60px;
+    padding-bottom: 75px;
+}
+
+.subscribe__desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #118DA8;
+}
+
+.subscribe__heading {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+}
+
+.subscribe__input input {
+    width: 522px;
+    height: 82px;
+    background-color: #191919;
+    border: none;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-left: 19px;
+}
+
+.subscribe__submit {
+    width: 87px;
+    height: 48px;
+    background-color: #118DA8;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28.8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color .4s linear;
+}
+
+.subscribe__submit:hover{
+    background-color: rgba(17, 141, 168, 0.6);
+}
+
+.subscribe__decoration {
+    position: relative;
+    top: 330px;
+    right: 45px;
+}

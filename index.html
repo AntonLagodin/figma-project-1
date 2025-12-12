@@ -107,17 +107,39 @@
         </div>
     </section>
     <section class="host">
-            <div class="host__info">
-                <button class="info__arrow" type="button">
-                    <img src="/assets/arrow.png" alt="arrow" class="arrow__image">
-                </button>
-                <p class="arrow__text">Meet your host</p>
-                <h2 class="host__name">Jacob Paulaner</h2>
-                <p class="host__desc">Jacob has a background in audio engineering, and has been podcasting since the early days. <br /> <br />He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+        <div class="host__info">
+            <button class="info__arrow" type="button">
+                <img src="/assets/arrow.png" alt="arrow" class="arrow__image">
+            </button>
+            <p class="arrow__text">Meet your host</p>
+            <h2 class="host__name">Jacob Paulaner</h2>
+            <p class="host__desc">Jacob has a background in audio engineering, and has been podcasting since the early days. <br /> <br />He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+        </div>
+        <svg class="host__image">
+            <use href="/assets/IMAGE (4).svg"></use>
+        </svg>
+    </section>
+    <section class="subscribe">
+        <div class="subscribe__box">
+            <div class="subcribe__title">
+                <p class="subscribe__desc">Email Newsletter</p>
+                <h2 class="subscribe__heading">Subscribe <br /> for updates</h2>
             </div>
-            <svg class="host__image">
-                <use href="/assets/IMAGE (4).svg"></use>
-            </svg>
+            <form action="/" method="post">
+                <div class="subscribe__input">
+                    <input type="text" name="name" id="name" placeholder = "Name" required>
+                    <label for="name"></label>
+                </div>
+                <div class="subscribe__input">
+                    <input type="text" name="email" id="email" placeholder="Email" required>
+                    <label for="email"></label>
+                </div>
+                <button class="subscribe__submit" type="submit">Submit</button>
+            </form>
+        </div>
+        <svg class="subscribe__decoration">
+            <use href="/assets/IMAGE (11).svg"></use>
+        </svg>
     </section>
 </body>
 </html>
